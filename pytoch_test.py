@@ -9,6 +9,10 @@ else:
     print("Using CPU device")
     device= torch.device("cpu")
 
+
+device = torch.device("cpu")
+
+
 dtype = torch.float
 # device = torch.device("cuda:0") # Uncomment this to run on GPU
 

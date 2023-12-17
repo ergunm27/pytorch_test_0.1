@@ -11,7 +11,7 @@ else:
 
 
 device = torch.device("cpu")
-
+print("Hello world")
 
 dtype = torch.float
 # device = torch.device("cuda:0") # Uncomment this to run on GPU
